@@ -1,0 +1,21 @@
+# Core dependencies
+numpy
+pandas
+scipy
+matplotlib
+
+# Machine Learning
+scikit-learn
+torch
+torchvision
+
+# Image Processing
+opencv-python
+
+# Utilities
+tqdm
+spectral 
+ipykernel
+
+dash
+jupyter-dash
