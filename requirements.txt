@@ -6,8 +6,6 @@ matplotlib
 
 # Machine Learning
 scikit-learn
-torch
-torchvision
 
 # Image Processing
 opencv-python
@@ -19,3 +17,4 @@ ipykernel
 
 dash
 jupyter-dash
+plotly

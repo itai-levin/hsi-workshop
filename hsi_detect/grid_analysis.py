@@ -185,7 +185,7 @@ class GridAnalysis():
         if self.IP is not None:
             app.run(self.IP, port=np.random.choice(range(8300,8900)), debug=True)
         else:
-            app.run(mode='inline', debug=True)
+            app.run_server(mode='inline', debug=True)
     
     def interactive_get_coords(self, img):
         print ('updated')
@@ -242,7 +242,7 @@ class GridAnalysis():
         if self.IP is not None:
             app.run(self.IP, port=np.random.choice(range(8300,8900)), debug=True)
         else:
-            app.run(mode='inline', debug=True)
+            app.run_server(mode='inline', debug=True)
             
         return selected_coords
     
